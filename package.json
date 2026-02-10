@@ -1,0 +1,30 @@
+{
+  "name": "agentic-cf6bda8a",
+  "version": "1.0.0",
+  "description": "Mobile-first workout planner with weekly scheduling.",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,css,md}\""
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.16.11",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.14.0",
+    "eslint-config-next": "16.1.6",
+    "postcss": "8.4.47",
+    "prettier": "3.3.3",
+    "tailwindcss": "3.4.13",
+    "typescript": "5.6.3"
+  }
+}
